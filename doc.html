@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação Varal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #444;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-top: 15px;
+        }
+
+        ul {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            line-height: 1.5;
+        }
+
+        li p {
+            margin-top: 10px;
+        }
+
+        head a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            text-align: center;
+            color: #999;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Introdução</h1>
+        <p>O objetivo deste projeto é criar um varal de roupas automático que possa ser controlado por um botão para
+            retrair
+            e expandir, mas que tenha também um modo automático para detectar quando está chovendo e
+            retrair o varal automaticamente, e vice versa a partir de microcontrolador Arduino.</p>
+
+        <h2>Requisitos Funcionais</h2>
+        <ul>
+            <li>O varal deve possuir modo automático e manual;</li>
+            <li>O varal deve ser capaz de se expandir e retrair por meio de botôes;</li>
+            <li>O varal deve possuir um sensor de água para detectar quando está chovendo;</li>
+            <li>O microcontrolador Arduino deve ser capaz de receber informações do sensor de água e acionar o motor do
+                varal para retrair ou expandir se estiver no modo automático;</li>
+        </ul>
+
+        <h2>Requisitos Não Funcionais</h2>
+        <ul>
+            <li>
+                <p> O sistema deve ser seguro para os usuários e não apresentar riscos de choques elétricos ou outros
+                    tipos
+                    de
+                    acidentes.</p>
+                <p>obs: enrola todos os cabos em Fita adesiva de vinil e colocar o arduino em um local que não
+                    tome chuva
+                </p>
+            </li>
+        </ul>
+
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Os botões devem permitir que o usuário controle o varal manualmente;</li>
+            <li>O sensor de água deve enviar informações para o microcontrolador, que acionará o motor do varal para
+                retrair
+                ou expandir conforme necessário e se estiver no modo automático;</li>
+        </ul>
+
+        <h2>Tecnologias e Componentes Utilizados</h2>
+        <ul>
+            <li>Motor DC para o acionamento do varal;</li>
+            <li>Sensor ultrassônico para medir a distância do varal;</li>
+            <li>Interruptor;</li>
+            <li>Ponte H;</li>
+            <li>Led;</li>
+            <li>Resistors;</li>
+            <li>Sensor de umidade para detectar a presença de chuva;</li>
+            <li>Microcontrolador Arduino para processar as informações do sensor e controlar o motor do varal;</li>
+            <li>Materiais para construir o varal, como cabos de aço e suportes;</li>
+            <li>Fita adesiva de vinil</li>
+            <li>Prontoboard.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
