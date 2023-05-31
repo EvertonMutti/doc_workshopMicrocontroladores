@@ -71,14 +71,14 @@
 <body>
     <div class="wrapper">
         <h1>Introdução</h1>
-        <p>O objetivo deste projeto é criar um varal de roupas automático que possa ser controlado por um botão para
+        <p>O objetivo deste projeto é criar um varal de roupas automático que possa ser controlado por um botões para
             retrair
             e expandir, mas que tenha também um modo automático para detectar quando está chovendo e
             retrair o varal automaticamente, e vice versa a partir de microcontrolador Arduino.</p>
 
         <h2>Requisitos Funcionais</h2>
         <ul>
-            <li>O varal deve possuir modo automático e manual;</li>
+            <li>O varal deve possuir modo automático e manual controlado por um Interruptor;</li>
             <li>O varal deve ser capaz de se expandir e retrair por meio de botôes;</li>
             <li>O varal deve possuir um sensor de água para detectar quando está chovendo;</li>
             <li>O microcontrolador Arduino deve ser capaz de receber informações do sensor de água e acionar o motor do
@@ -92,8 +92,8 @@
                     tipos
                     de
                     acidentes.</p>
-                <p>obs: enrola todos os cabos em Fita adesiva de vinil e colocar o arduino em um local que não
-                    tome chuva
+                <p>Solução: Enrolar todos os cabos em Fita adesiva de vinil e colocar o arduino no local que esteja
+                    coberto.
                 </p>
             </li>
         </ul>
@@ -104,6 +104,7 @@
             <li>O sensor de água deve enviar informações para o microcontrolador, que acionará o motor do varal para
                 retrair
                 ou expandir conforme necessário e se estiver no modo automático;</li>
+            <li>O Led deve indicar a umidade no ambiente</li>
         </ul>
 
         <h2>Tecnologias e Componentes Utilizados</h2>
@@ -113,7 +114,7 @@
             <li>Interruptor;</li>
             <li>Ponte H;</li>
             <li>Led;</li>
-            <li>Resistors;</li>
+            <li>Resistores;</li>
             <li>Sensor de umidade para detectar a presença de chuva;</li>
             <li>Microcontrolador Arduino para processar as informações do sensor e controlar o motor do varal;</li>
             <li>Materiais para construir o varal, como cabos de aço e suportes;</li>
